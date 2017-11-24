@@ -4,6 +4,11 @@
 //
 
 //
+// To run this program:
+//
+//  node --expose-gc test-single-alloc-limit.js
+
+//
 // Note this program invokes the garbage collector explicitly, so it must be run with the Node.js flag --expose-gc
 //
 
@@ -11,7 +16,14 @@
 // Allocate a certain size to test if it can be done.
 //
 var alloc = function (size) {
-    return Buffer.allocUnsafe(size); 
+    //return Buffer.allocUnsafe(size); 
+    var numbers = size / 8;
+    var arr = []
+    arr.length = numbers;
+    for (var i = 0; i < numbers; i++) {
+        arr[i] = i;
+    }
+    return arr;
 };
 
 //
