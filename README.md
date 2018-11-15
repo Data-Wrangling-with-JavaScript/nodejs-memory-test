@@ -6,7 +6,7 @@ This example code accompanies the book [Data Wrangling with JavaScript](http://b
 
 There is also a related [blog post](http://www.the-data-wrangler.com/nodejs-memory-limits/) and [video](https://www.youtube.com/watch?v=FvAghuKuak8).
 
-To keep up with my work please follow @ashleydavis75 on Twitter or sign up for my email list on my blog [The Data Wrangler](http://www.the-data-wrangler.com/).
+To keep up with my work please follow @ashleydavis75 on Twitter or sign up to the email list on my blog [The Data Wrangler](http://www.the-data-wrangler.com/).
 
 ---
 
